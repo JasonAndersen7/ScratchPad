@@ -9,10 +9,12 @@ using System.Net.Http.Headers;
 namespace TestConsole
 {
 
-
+    #region Delegates
     public delegate void PrintDelegate(int value);
     public delegate void MathDelegate(int first, int second);
     public delegate void ToStringDelegate(Object obj1);
+    #endregion
+
 
     class Program
     {
